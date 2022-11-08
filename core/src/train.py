@@ -17,7 +17,7 @@ from constants import CATEGORICAL_FEATURES, NUMERIC_FEATURES, TARGET
 def main(args: Namespace) -> None:
     """Develop an sklearn model and use mlflow to log metrics"""
     # enable auto logging
-    mlflow.autolog()
+    # mlflow.autolog()
 
     # setup parameters
     params = {
