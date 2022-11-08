@@ -3,9 +3,9 @@ name: Train and Deploy Model
 on:
   workflow_dispatch: # For demonstration purposes
 
-  # push: # Runs workflow when you push a commit or tag
-  #   branches:
-  #     - main
+  push: # Runs workflow when you push a commit or tag
+    branches:
+      - main
 
   # schedule: # Runs workflow at a scheduled time.
   #   - cron: "0 0 * * 0"
